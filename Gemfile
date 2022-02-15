@@ -5,6 +5,9 @@ ruby '2.7.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.6'
+gem 'pundit', '~> 2.1', '>= 2.1.1'
+gem 'simple_token_authentication'
+
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
