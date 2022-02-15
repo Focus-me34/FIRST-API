@@ -261,12 +261,12 @@ DEPENDENCIES
   puma (~> 5.0)
   pundit (~> 2.1, >= 2.1.1)
   rack-mini-profiler (~> 2.0)
-  rails (~> 6.1.4, >= 6.1.4.6)
+  rails (~> 6.1, >= 6.1.4.6)
   redis (~> 4.0)
   sass-rails (>= 6)
   selenium-webdriver
   simple_form
-  simple_token_authentication
+  simple_token_authentication (~> 1.17)
   spring
   turbolinks (~> 5)
   tzinfo-data
@@ -275,7 +275,7 @@ DEPENDENCIES
   webpacker (~> 5.0)
 
 RUBY VERSION
-   ruby 2.7.4p191
+   ruby 3.1.0p0
 
 BUNDLED WITH
-   2.3.1
+   2.3.7

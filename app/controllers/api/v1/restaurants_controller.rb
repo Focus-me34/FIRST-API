@@ -50,3 +50,11 @@ class Api::V1::RestaurantsController < Api::V1::BaseController
       status: :unprocessable_entity
   end
 end
+
+
+# curl -i -X POST                                                              \
+#      -H 'Content-Type: application/json'                                     \
+#      -H 'X-User-Email: test@test.test'                                      \
+#      -H 'X-User-Token: UVcuz9J1zBC1xAGsaFJT'                                 \
+#      -d '{ "restaurant": { "name": "New restaurant", "address": "Paris" } }' \
+#      http://localhost:3000/api/v1/restaurants
